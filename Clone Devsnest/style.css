@@ -1,0 +1,225 @@
+body {
+  background-color: white;
+  height: 1000px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+/* style navbar start */
+.logo {
+  width: 65px;
+  height: 65px;
+  padding: 8px;
+}
+   /* fixing the navbar to the top */
+nav.navbar {                  
+  position: fixed;
+  opacity: 1;
+  background-color: white;
+  width: 100%;
+}
+.bg-white {
+  background-color: white;
+}
+.purple {
+  color: #8367c7;
+}
+.shadow {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-items{
+  display: flex;
+  flex-direction: row;
+  padding-left: 900px;
+  list-style: none;
+}
+.nav-items {
+  padding: 10px;
+  margin: 10px 10px;
+  text-align: right;
+  
+}
+/* style navbar ends */
+
+
+
+
+/* Introduction page starts */
+.header {
+  padding-top: 70px;
+}
+
+img.developer {
+  width: 600px;
+  height: 730px;
+}
+  /* Flex box containing two div row-wise and again the second dic has 2 div column-wise   */
+div .container {
+ display: flex;
+ flex-direction: row;
+}
+
+div .top-content {
+  display: flex;
+  flex-direction: column;
+  margin: 300px 100px;
+}
+  /* size of text in header */
+.text1-style {
+  font-size: xx-large;
+}
+.text2-style {
+  font-size: x-large;
+  padding-right: 90px;
+}
+.font {
+  font-family: "Montserrat",sans-serif;
+}
+/* Introduction page ends */
+
+
+
+/* Our Vision Starts here  */
+img.vision-image {
+  width: 400px;
+  padding: 40px;
+}
+.vision{
+  padding: 0px 100px;
+}
+div .container1{
+  display:flex;
+  flex-direction: row;
+}
+div .vision-content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.text1-size{
+  font-size: xx-large;
+}
+.text2-size{
+  font-size: x-large;
+}
+.right-align{
+  text-align: right;
+}
+/* Our Vision Ends here  */
+
+
+/* Our Feedback Form starts here  */
+section.form {
+  width: 100%;
+  height: 600px;
+  /* background-color: #8367c7; */
+  margin-top: 80px;
+}
+.form-title {
+    font-size: xxx-large;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+form.form-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 300px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: rgb(197, 184, 225);;
+}
+input#mailid {
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+input#phone {
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+input#message {
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    background-color: #8367c7;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 10px 285px;
+}
+/* Our Feedback Form ends here  */
+
+
+
+
+ /* Our Footer starts here */
+ .footer{
+   display:flex;
+   flex-direction: row;
+   width: 100%;
+   height: 140px;
+   background-color: rgb(204, 202, 214);
+ }
+ .footer1-flex{
+  display:flex;
+  flex-direction: column;
+  margin: 20px 40px;
+  text-align: left;
+}
+.footer2-flex{
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px 20px 20px 500px;
+  text-align: right;
+}
+  /* Our Footer ends here */
+
+
+/* icon  */
+.fa {
+  padding: 20px;
+  font-size: 12px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 60%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
