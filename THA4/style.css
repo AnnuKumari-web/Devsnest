@@ -1,0 +1,66 @@
+/* center alignment of clock  */
+body{
+  text-align: center;
+}
+.clock{
+  width: 500px;
+  height: 500px;
+  background: white;
+  display: inline-block;
+  border: 30px solid #00B0FF;
+  border-radius: 50%;
+  border-style: outset;
+  box-shadow: inset 5px 5px 5px 20px #CCC;
+  padding: 20px;
+}
+
+/* Sec, min & hour hand  */
+.sec,.min,.hour{
+  line-height: 45px;
+  position: relative;
+  transform-origin: bottom;
+}
+
+.sec{
+  height: 250px;
+  width: 5px;
+  left: 245px;
+  background: black;
+  z-index: 3;
+  animation: sec_anim 60s linear infinite;
+}
+.min{
+  height: 250px;
+  width: 10px;
+  left: 242.5px;
+  top: -250px;
+  background:#00B0FF;
+  z-index: 2;
+  animation: min_anim 3600s linear infinite;
+}
+.hour{
+  height: 180px;
+  width: 15px;
+  left: 240px;
+  top: -430px;
+  background: rgb(10, 9, 29);
+  z-index: 1;
+  animation: hour_anim 6000s linear infinite;
+}
+
+/* animation  */
+@keyframes sec_anim{
+  from{transform: rotateZ(0deg);}
+  to{transform: rotateZ(360deg);}
+}
+
+@keyframes min_anim{
+  from{transform: rotateZ(5deg);}
+  to{transform: rotateZ(360deg);}
+}
+
+@keyframes hour_anim{
+  from{transform: rotateZ(45deg);}
+  to{transform: rotateZ(360deg);}
+} 
+
