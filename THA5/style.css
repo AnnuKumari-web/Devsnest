@@ -1,0 +1,58 @@
+h1{
+  text-align: center;
+  text-decoration:underline
+}
+h1:hover{
+  color: blue;
+}
+
+
+.box{
+  text-align: center;
+  width: 30em;
+  margin: auto;
+}
+.text{
+  background-color: black;
+  color: white;
+  font-size: medium;
+  margin: 4px;
+  border-radius: 25px;
+  border: 4px solid rgb(17, 17, 211);
+  width: 30em;
+  height: 2em;
+  margin: 8px;
+}
+.text:hover{
+  background-color: rgb(17, 17, 211);
+  color: black;
+}
+#buttons{
+  display: flex;
+  flex-direction: row;
+  width: 30em;
+  margin: 8px;
+}
+
+.btn{
+  text-align: center;
+  padding: 10px;
+  margin: 4px;
+  width: 10em;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: 4px solid rgb(17, 17, 211);
+}
+.btn:hover {
+  background-color: rgb(17, 17, 211);
+color: black;
+font-size: large;
+
+}
+
+#result{
+  color: rgb(17, 17, 211);
+  font-size: larger;
+}
