@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+#countdown{
+  font-size: x-large;
+  text-align: center;
+}
+.grid-container{
+  margin: auto;
+  display:grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+  grid-column-gap: 0;
+  grid-template-rows: 0;
+  background-color: black;
+  padding: 4px;
+  width: 400px;
+  height: 400px;
+}
+.grid-item{
+  background-color: red;
+  border:1px solid rgb(228, 32, 32);
+  padding: 2px; 
+}
+.grid-item:hover{
+  background-color: rgb(248, 152, 152);
+  border:1px solid rgb(228, 32, 32);
+  padding: 2px; 
+}
+
+.white{
+  background-color: white;
+  border: 1px solid red ;
+}
+
+#result{
+  text-align: center;
+}
