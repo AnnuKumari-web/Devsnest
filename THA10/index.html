@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+
+  <title>Memory-Game</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar starts here  -->
+    <nav class="navbar shadow">
+
+      <div class="flex-container">
+        <div class="h1">GAMING</div>
+        <ul class="navbar-items">
+          <li class="nav-items">Join Us</li>
+          <li class="nav-items">Sign in</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar ends here  -->
+    <div class="head">
+      <h1>MEMORY-GAME</h1>
+      You are now playing at level 2:16 cards.
+    </div>
+
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="box" data-framework="backbone">
+        <img class="front-face" src="../img/backbone.svg" alt="backbone" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">1</div>
+      </div>
+      <div class="box" data-framework="backbone">
+        <img class="front-face" src="../img/backbone.svg" alt="backbone" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">2</div>
+      </div>
+      <div class="box" data-framework="vue">
+        <img class="front-face" src="../img/vue.svg" alt="Vue" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">3</div>
+      </div>
+      <div class="box" data-framework="vue">
+        <img class="front-face" src="../img/vue.svg" alt="Vue" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">4</div>
+      </div>
+      <div class="box" data-framework="react">
+        <img class="front-face" src="../img/react.svg" alt="react" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">5</div>
+      </div>
+      <div class="box" data-framework="react">
+        <img class="front-face" src="../img/react.svg" alt="react" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">6</div>
+      </div>
+      <div class="box" data-framework="angular">
+        <img class="front-face" src="../img/angular.svg" alt="angular" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">7</div>
+      </div>
+      <div class="box" data-framework="angular">
+        <img class="front-face" src="../img/angular.svg" alt="angular" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">
+        1</div>
+      </div>
+      <div class="box" data-framework="ember">
+        <img class="front-face" src="../img/ember.svg" alt="ember" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">8</div>
+      </div>
+      <div class="box" data-framework="ember">
+        <img class="front-face" src="../img/ember.svg" alt="ember" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">9</div>
+      </div>
+      <div class="box" data-framework="aurelia">
+        <img class="front-face" src="../img/aurelia.svg" alt="aurelia" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">11</div>
+      </div>
+      <div class="box" data-framework="aurelia">
+        <img class="front-face" src="../img/aurelia.svg" alt="aurelia" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">12</div>
+      </div>
+      <div class="box" data-framework="js">
+        <img class="front-face" src="../img/js-badge.svg" alt="js" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">13</div>
+      </div>
+      <div class="box" data-framework="js">
+        <img class="front-face" src="../img/js-badge.svg" alt="js" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">14</div>
+      </div>
+      <div class="box" data-framework="next">
+        <img class="front-face" src="/nextjs.png" alt="nextjs" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">15</div>
+      </div>
+      <div class="box" data-framework="next">
+        <img class="front-face" src="nextjs.png" alt="nextjs" />
+      <!-- <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />  -->
+      <div class="back-face">16</div>
+      </div>
+    </div>
+
+    <div class="scoreboard">
+      <div class="scores">
+        <input type="text" value="2" id="level" name="level">
+        <label for="level">CURRENT LEVEL</label>
+      </div>
+      <div class="scores"><input type="text" value="0" id="moves" name="moves">
+        <label for="moves">MOVES</label>
+      </div>
+      <div class="scores"><input type="text" value="0" id="rounds" name="rounds">
+        <label for="rounds">ROUNDS PLAYED</label>
+      </div>
+      <div class="scores"><input type="text" value="10" id="levels" name="levels">
+        <label for="levels">LEVELS</label>
+      </div>
+      <div class="scores"><input type="text" value="0" id="points" name="points">
+        <label for="points">POINTS</label>
+      </div>
+    </div>
+  </main>
+  <!-- Our Footer starts here  -->
+  <footer class="footer">
+    <div class="footer1-flex">
+      <div><br> Copyright © 2021 AK</div>
+      <div><strong>Privacy Policy</strong></div>
+    </div>
+    <div class="footer2-flex">
+      <div><strong>Contact us: support@gaming.in</strong></div>
+    </div>
+    </div>
+  </footer>
+  <!--  Our Footer ends here  -->
+
+  <script src="index.js"></script>
+</body>
+
+</html>
