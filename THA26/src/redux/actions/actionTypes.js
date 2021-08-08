@@ -1,0 +1,7 @@
+const INC_NUM = 'INC_NUM'
+const DEC_NUM = 'DEC_NUM'
+const USER ='USER'
+const EMAIL ='EMAIL'
+const PASSWORD ='PASSWORD'
+
+export {INC_NUM,DEC_NUM,USER,EMAIL,PASSWORD};
