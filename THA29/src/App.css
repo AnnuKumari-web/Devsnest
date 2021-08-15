@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+
+.searchbar{
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+}
+input{
+  border-radius: 5px;
+  height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 5px;
+}
+button{
+  background-color: black;
+  color: white;
+  padding: 2px;
+  margin: 1px;
+  border-radius: 5px;
+  height: 24px;
+}
+
+.heading{
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.container{
+  height: 540px;
+  width: 330px;
+  margin: auto;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #000000;
+  margin-top: 20px;
+  padding: 4px;
+}
+.dark{
+  background:  rgb(75, 72, 72);
+  color:white;
+  border: 2px solid white;
+}
+
+.container .place{
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.container .date{
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.container .temp{
+  font-size: 4.5rem;
+  margin-top: 1px;
+}
+.container .image{
+  height: 100px;
+  width: auto;
+}
+.container .desc .feh{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.container .tempC{
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
+.container .daywise{
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+.small{
+  font-size: 0.6rem;
+  margin-top: 2px;
+}
+
+/* toggle theme */
+
+.btn-dark{
+  background-color: whitesmoke;
+  color: black;
+}
+
+.App.dark .btn-light{
+  background-color: black;
+  color: white;
+}
+
